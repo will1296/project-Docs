@@ -1,0 +1,216 @@
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\csc.exe
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\System.Collections.Immutable.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\System.Reflection.Metadata.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\vbc.exe
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\VBCSCompiler.exe
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\roslyn\VBCSCompiler.exe.config
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\DocsManagement.dll.config
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\DocsManagement.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\DocsManagement.pdb
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Antlr3.Runtime.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\EntityFramework.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\EntityFramework.SqlServer.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Google.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Web.Infrastructure.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Newtonsoft.Json.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Owin.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Helpers.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Mvc.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Optimization.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Razor.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.WebPages.Deployment.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.WebPages.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.WebPages.Razor.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\WebGrease.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Helpers.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Mvc.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Optimization.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.Razor.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.WebPages.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.WebPages.Deployment.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\System.Web.WebPages.Razor.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Antlr3.Runtime.pdb
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Newtonsoft.Json.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\EntityFramework.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\EntityFramework.SqlServer.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Google.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\obj\Debug\DocsManagement.dll
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\obj\Debug\DocsManagement.pdb
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\obj\Debug\DocsManagement.csproj.CoreCompileInputs.cache
+F:\Programming Languages\My-Projects\asp.net\proj\DocsManagement\DocsManagement\obj\Debug\DocsManagement.csproj.CopyComplete
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\obj\Debug\DocsManagement.csproj.AssemblyReference.cache
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\obj\Debug\DocsManagement.csproj.CoreCompileInputs.cache
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\obj\Debug\DocsManagement.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\obj\Debug\DocsManagement.pdb
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\csc.exe
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\vbc.exe
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\DocsManagement.dll.config
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\DocsManagement.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\DocsManagement.pdb
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Antlr3.Runtime.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\EntityFramework.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\log4net.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Newtonsoft.Json.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Owin.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Helpers.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Mvc.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Optimization.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Razor.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.WebPages.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\WebGrease.dll
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\log4net.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Helpers.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Mvc.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Optimization.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.Razor.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.WebPages.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Newtonsoft.Json.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\EntityFramework.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sandrine\Desktop\projet 2\bitbucket\DocsManagement\obj\Debug\DocsManagement.csproj.CopyComplete
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\csc.exe
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\vbc.exe
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\DocsManagement.dll.config
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\DocsManagement.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\DocsManagement.pdb
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Antlr3.Runtime.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\EntityFramework.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\log4net.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Newtonsoft.Json.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Owin.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Helpers.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Mvc.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Optimization.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Razor.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.WebPages.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\WebGrease.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\log4net.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Helpers.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Mvc.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Optimization.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.Razor.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.WebPages.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Newtonsoft.Json.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\EntityFramework.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\obj\Debug\DocsManagement.csproj.AssemblyReference.cache
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\obj\Debug\DocsManagement.csproj.CoreCompileInputs.cache
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\obj\Debug\DocsManagement.csproj.CopyComplete
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\obj\Debug\DocsManagement.dll
+C:\Users\Sandrine\Desktop\projet\bitbucket\DocsManagement\obj\Debug\DocsManagement.pdb

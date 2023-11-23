@@ -1,0 +1,83 @@
+﻿@model DocsManagement.Models.Messages
+@{
+    ViewBag.Title = "Upload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Creating Service Documents</title>
+    <script src="@Url.Content("~/Scripts/jquery-3.3.1.min.js")" type="text/javascript"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        thead {
+            background-color: skyblue;
+            color: white;
+        }
+
+        body {
+            display: flex;
+            right: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Create", "Messages", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <br />
+            <table cellpadding="5">
+                <thead>
+                    <tr>
+                        <td colspan="2" style="text-align:center"></td>
+                    </tr>
+
+                </thead>
+
+                <tr>
+                    <td>
+                        <label>Отправитель</label><b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.Sender, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Получатель</label><b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.Reciever, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>сообщения</label><b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextAreaFor(m => m.Message1, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Файл</label><b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.File, new { @type = "file" })
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:right">
+                        <input type="submit" id="save" value="Send" />
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+</body>
+</html>

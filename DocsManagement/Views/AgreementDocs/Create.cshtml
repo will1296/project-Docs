@@ -1,0 +1,159 @@
+﻿@model DocsManagement.Models.AgreementDocument
+@{
+    ViewBag.Title = "Upload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="@Url.Content("~/Scripts/jquery-3.3.1.min.js")" type="text/javascript"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        thead {
+            background-color: skyblue;
+            color: white;
+        }
+
+        body {
+            display: flex;
+            right: 50%;
+        }
+
+        select {
+            font-size: 1.5rem;
+            padding: 2px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Create", "AgreementDocs", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <br />
+            <table cellpadding="5">
+                <thead>
+                    <tr>
+                        <td colspan="2" style="text-align:center">Создать Документ</td>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.RegistrationNomer)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.RegistrationNomer, new { @class = "form-control"})
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.RegistrationData)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.RegistrationData, new { type = "date" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.TypeDocument)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.TypeDocument, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.StateDocument)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.StateDocument, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.TypeAgreement)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.TypeAgreement, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.DeadlineAgreement)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.DeadlineAgreement, new { @type = "date" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.Contractor)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.Contractor, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.Amount)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.Amount, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.CreatedUser)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.CreatedUser, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.SignedUser)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.SignedUser, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.NumberSheets)
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.NumberSheets, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.Summary)
+                    </td>
+                    <td>
+                        @Html.TextAreaFor(m => m.Summary, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.File)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.File, new { @type = "file" })
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:right">
+                        <input type="submit" id="save" value="Save" />
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+</body>
+</html>

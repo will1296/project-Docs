@@ -1,0 +1,51 @@
+﻿
+@model IEnumerable<DocsManagement.Models.Service>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RegistrationData)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeDocument)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StateDocument)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedUser)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SignedUser)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="/ServiceDocs/Details/@item.RegistrationNomer">
+                    @Html.DisplayFor(modelItem => item.RegistrationNomer)
+                </a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypeDocument)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StateDocument)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SignedUser)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RegistrationNomer }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RegistrationNomer })
+            </td>
+        </tr>
+    }
+
+</table>

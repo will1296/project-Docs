@@ -1,0 +1,173 @@
+﻿@model DocsManagement.Models.Agreement
+
+<div>
+    <h4>Agreement Document</h4>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <div class="row">
+            <div class="col-md-6">
+                <dl class="dl-horizontal">
+                    <dt>
+                        Рег.Номр
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.RegistrationNomer)
+                    </dd>
+
+                    <dt>
+                        Вид Документа
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.TypeDocument)
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-md-6">
+                <dl>
+                    <dt>
+                        Дата рег.
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.RegistrationData)
+                    </dd>
+                    <dt>
+                        Состояния Документа
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.StateDocument)
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <hr />
+        <h2>Информация о Договорном Документе</h2>
+        <div class="roe">
+            <div class="col-md-6">
+                <dl>
+                    <dt>
+                        Вид Договора
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.TypeAgreement)
+                    </dd>
+                    <dt>
+                        Сумма Договора (Руб)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Amount)
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-md-6">
+                <dl>
+                    <dt>
+                        Срок Договора
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.DeadlineAgreement)
+                    </dd>
+
+                    <dt>
+                        Контрагента
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Conractor)
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <hr />
+        <h2>Информация о сторонах, работающих над документом</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <dl>
+                    <dt>
+                        Подготовил
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.CreatedUser)
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-md-6">
+                <dl>
+                    <dt>
+                        Подписал
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.SignedUser)
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <hr />
+        <h2>Дополнителная Инормация</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <dl>
+                    <dt>
+                        Кол Листов
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.NumberSheets)
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-md-6">
+                <dl>
+                    <dt>
+                        Кроткое Содержание
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.Summary)
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <br />
+        <hr />
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FileName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FileType)
+                        </th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(model => model.FileName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.FileType)
+                        </td>>
+                        <td>
+                            @Html.ActionLink("download", "download", new { id = Model.RegistrationNomer })
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "List")
+</p>

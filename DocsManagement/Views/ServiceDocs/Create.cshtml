@@ -1,0 +1,122 @@
+﻿@model DocsManagement.Models.ServiceDocument
+@{
+    ViewBag.Title = "Upload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Creating Service Documents</title>
+    <script src="@Url.Content("~/Scripts/jquery-3.3.1.min.js")" type="text/javascript"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        thead {
+            background-color: skyblue;
+            color: white;
+        }
+        body{
+            display:flex;
+            right:50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Create", "ServiceDocs", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <br />
+            <table cellpadding="5">
+                <thead>
+                    <tr>
+                        <td colspan="2" style="text-align:center">Создать Документ</td>
+                    </tr>
+
+                </thead>
+
+                <tr>
+                    <td>
+                        <label>Номер Рег.</label><b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.RegistrationNomer, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.RegistrationData)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.RegistrationData, new { type = "date" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.TypeDocument)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.TypeDocument, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.StateDocument)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.StateDocument, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.CreatedUser)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.CreatedUser, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.SignedUser)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.SignedUser, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.NumberSheets)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.NumberSheets, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.Summary)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextAreaFor(m => m.Summary, new { @class = "form-control" })
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(m => m.File)<b style="color:red"> *</b>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(m => m.File, new { @type = "file" })
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:right">
+                        <input type="submit" id="save" value="Save" />
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+</body>
+</html>

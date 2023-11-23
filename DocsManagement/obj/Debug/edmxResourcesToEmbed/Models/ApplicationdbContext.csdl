@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DocumentsDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Agreement">
+    <Key>
+      <PropertyRef Name="RegistrationNomer" />
+    </Key>
+    <Property Name="RegistrationNomer" Type="Int32" Nullable="false" />
+    <Property Name="RegistrationData" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="TypeDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StateDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TypeAgreement" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DeadlineAgreement" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Conractor" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CreatedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SignedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NumberSheets" Type="Int32" />
+    <Property Name="Summary" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FileType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FileContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Sender" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Reciever" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Message1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FileType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FileContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="RegistrationNomer" />
+    </Key>
+    <Property Name="RegistrationNomer" Type="Int32" Nullable="false" />
+    <Property Name="RegistrationData" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="TypeDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StateDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SignedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NumberSheets" Type="Int32" />
+    <Property Name="Summary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FileType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FileContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="DocumentsDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Agreements" EntityType="Self.Agreement" />
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="Services" EntityType="Self.Service" />
+  </EntityContainer>
+</Schema>

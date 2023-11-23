@@ -1,0 +1,61 @@
+﻿@model DocsManagement.Models.Message
+
+<div>
+    <h4>Message</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Отправитель
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sender)
+        </dd>
+
+        <dt>
+            Получатель
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reciever)
+        </dd>
+
+        <dt>
+            сообщения
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message1)
+        </dd>
+
+    </dl>
+    <h3>ДОКУМЕНТЫ</h3>
+    <table class="table">
+        <tr>
+            <th>
+               Название Файла
+            </th>
+            <th>
+                Тип Файла
+            </th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.FileName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.FileType)
+            </td>>
+            <td>
+                @Html.ActionLink("download", "download", new { id = Model.ID })
+            </td>
+        </tr>
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Delete", "Delete", new { id = Model.ID })
+</p>
+<p>
+    @Html.ActionLink("Back to List", "List")
+</p>

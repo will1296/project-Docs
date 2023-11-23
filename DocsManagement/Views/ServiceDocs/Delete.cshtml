@@ -1,0 +1,81 @@
+﻿@model DocsManagement.Models.Service
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Service</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistrationData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistrationData)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TypeDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TypeDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StateDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StateDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignedUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignedUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberSheets)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberSheets)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Summary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Summary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FileName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FileName)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "List")
+        </div>
+    }
+</div>

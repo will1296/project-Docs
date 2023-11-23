@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DocumentsDBModelStoreContainer" CdmEntityContainer="DocumentsDBEntities">
+    <EntitySetMapping Name="Agreements">
+      <EntityTypeMapping TypeName="IsTypeOf(DocumentsDBModel.Agreement)">
+        <MappingFragment StoreEntitySet="Agreements">
+          <ScalarProperty Name="RegistrationNomer" ColumnName="RegistrationNomer" />
+          <ScalarProperty Name="RegistrationData" ColumnName="RegistrationData" />
+          <ScalarProperty Name="TypeDocument" ColumnName="TypeDocument" />
+          <ScalarProperty Name="StateDocument" ColumnName="StateDocument" />
+          <ScalarProperty Name="TypeAgreement" ColumnName="TypeAgreement" />
+          <ScalarProperty Name="DeadlineAgreement" ColumnName="DeadlineAgreement" />
+          <ScalarProperty Name="Conractor" ColumnName="Conractor" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CreatedUser" ColumnName="CreatedUser" />
+          <ScalarProperty Name="SignedUser" ColumnName="SignedUser" />
+          <ScalarProperty Name="NumberSheets" ColumnName="NumberSheets" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="FileContent" ColumnName="FileContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="IsTypeOf(DocumentsDBModel.Message)">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Reciever" ColumnName="Reciever" />
+          <ScalarProperty Name="Message1" ColumnName="Message1" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="FileContent" ColumnName="FileContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="IsTypeOf(DocumentsDBModel.Service)">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="RegistrationNomer" ColumnName="RegistrationNomer" />
+          <ScalarProperty Name="RegistrationData" ColumnName="RegistrationData" />
+          <ScalarProperty Name="TypeDocument" ColumnName="TypeDocument" />
+          <ScalarProperty Name="StateDocument" ColumnName="StateDocument" />
+          <ScalarProperty Name="CreatedUser" ColumnName="CreatedUser" />
+          <ScalarProperty Name="SignedUser" ColumnName="SignedUser" />
+          <ScalarProperty Name="NumberSheets" ColumnName="NumberSheets" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="FileContent" ColumnName="FileContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

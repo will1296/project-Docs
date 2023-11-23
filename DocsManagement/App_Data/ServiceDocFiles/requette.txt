@@ -1,0 +1,1 @@
+﻿insert into [aspnet-DocsManagement-20211212095349].dbo.AspNetUserRoles values ('2d625305-3158-41d4-bbdc-c5ad83c92b8c',1)

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DocumentsDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DocumentsDBModelStoreContainer">
+    <EntitySet Name="Agreements" EntityType="DocumentsDBModel.Store.Agreements" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Messages" EntityType="DocumentsDBModel.Store.Messages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Services" EntityType="DocumentsDBModel.Store.Services" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Agreements">
+    <Key>
+      <PropertyRef Name="RegistrationNomer" />
+    </Key>
+    <Property Name="RegistrationNomer" Type="int" Nullable="false" />
+    <Property Name="RegistrationData" Type="datetime" Nullable="false" />
+    <Property Name="TypeDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="StateDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TypeAgreement" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="DeadlineAgreement" Type="datetime" Nullable="false" />
+    <Property Name="Conractor" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Amount" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="CreatedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="SignedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="NumberSheets" Type="int" Nullable="true" />
+    <Property Name="Summary" Type="nvarchar" Nullable="true" MaxLength="400" />
+    <Property Name="FileName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileType" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="FileContent" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Sender" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Reciever" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Message1" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileType" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="FileContent" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="RegistrationNomer" />
+    </Key>
+    <Property Name="RegistrationNomer" Type="int" Nullable="false" />
+    <Property Name="RegistrationData" Type="datetime" Nullable="false" />
+    <Property Name="TypeDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="StateDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreatedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="SignedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="NumberSheets" Type="int" Nullable="true" />
+    <Property Name="Summary" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileType" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="FileContent" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DocumentsDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Agreement">
+          <Key>
+            <PropertyRef Name="RegistrationNomer" />
+          </Key>
+          <Property Name="RegistrationNomer" Type="Int32" Nullable="false" />
+          <Property Name="RegistrationData" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="TypeDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="StateDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TypeAgreement" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DeadlineAgreement" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Conractor" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CreatedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SignedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NumberSheets" Type="Int32" />
+          <Property Name="Summary" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+          <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FileType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FileContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Sender" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Reciever" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Message1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FileType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FileContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Service">
+          <Key>
+            <PropertyRef Name="RegistrationNomer" />
+          </Key>
+          <Property Name="RegistrationNomer" Type="Int32" Nullable="false" />
+          <Property Name="RegistrationData" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="TypeDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="StateDocument" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CreatedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SignedUser" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NumberSheets" Type="Int32" />
+          <Property Name="Summary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FileType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FileContent" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityContainer Name="DocumentsDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Agreements" EntityType="Self.Agreement" />
+          <EntitySet Name="Messages" EntityType="Self.Message" />
+          <EntitySet Name="Services" EntityType="Self.Service" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DocumentsDBModelStoreContainer" CdmEntityContainer="DocumentsDBEntities">
+    <EntitySetMapping Name="Agreements">
+      <EntityTypeMapping TypeName="IsTypeOf(DocumentsDBModel.Agreement)">
+        <MappingFragment StoreEntitySet="Agreements">
+          <ScalarProperty Name="RegistrationNomer" ColumnName="RegistrationNomer" />
+          <ScalarProperty Name="RegistrationData" ColumnName="RegistrationData" />
+          <ScalarProperty Name="TypeDocument" ColumnName="TypeDocument" />
+          <ScalarProperty Name="StateDocument" ColumnName="StateDocument" />
+          <ScalarProperty Name="TypeAgreement" ColumnName="TypeAgreement" />
+          <ScalarProperty Name="DeadlineAgreement" ColumnName="DeadlineAgreement" />
+          <ScalarProperty Name="Conractor" ColumnName="Conractor" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CreatedUser" ColumnName="CreatedUser" />
+          <ScalarProperty Name="SignedUser" ColumnName="SignedUser" />
+          <ScalarProperty Name="NumberSheets" ColumnName="NumberSheets" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="FileContent" ColumnName="FileContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="IsTypeOf(DocumentsDBModel.Message)">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Reciever" ColumnName="Reciever" />
+          <ScalarProperty Name="Message1" ColumnName="Message1" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="FileContent" ColumnName="FileContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="IsTypeOf(DocumentsDBModel.Service)">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="RegistrationNomer" ColumnName="RegistrationNomer" />
+          <ScalarProperty Name="RegistrationData" ColumnName="RegistrationData" />
+          <ScalarProperty Name="TypeDocument" ColumnName="TypeDocument" />
+          <ScalarProperty Name="StateDocument" ColumnName="StateDocument" />
+          <ScalarProperty Name="CreatedUser" ColumnName="CreatedUser" />
+          <ScalarProperty Name="SignedUser" ColumnName="SignedUser" />
+          <ScalarProperty Name="NumberSheets" ColumnName="NumberSheets" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="FileContent" ColumnName="FileContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DocumentsDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DocumentsDBModelStoreContainer">
+    <EntitySet Name="Agreements" EntityType="DocumentsDBModel.Store.Agreements" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Messages" EntityType="DocumentsDBModel.Store.Messages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Services" EntityType="DocumentsDBModel.Store.Services" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Agreements">
+    <Key>
+      <PropertyRef Name="RegistrationNomer" />
+    </Key>
+    <Property Name="RegistrationNomer" Type="int" Nullable="false" />
+    <Property Name="RegistrationData" Type="datetime" Nullable="false" />
+    <Property Name="TypeDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="StateDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TypeAgreement" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="DeadlineAgreement" Type="datetime" Nullable="false" />
+    <Property Name="Conractor" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Amount" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="CreatedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="SignedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="NumberSheets" Type="int" Nullable="true" />
+    <Property Name="Summary" Type="nvarchar" Nullable="true" MaxLength="400" />
+    <Property Name="FileName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileType" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="FileContent" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Sender" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Reciever" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Message1" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileType" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="FileContent" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="RegistrationNomer" />
+    </Key>
+    <Property Name="RegistrationNomer" Type="int" Nullable="false" />
+    <Property Name="RegistrationData" Type="datetime" Nullable="false" />
+    <Property Name="TypeDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="StateDocument" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreatedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="SignedUser" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="NumberSheets" Type="int" Nullable="true" />
+    <Property Name="Summary" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="FileType" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="FileContent" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+</Schema>
